@@ -1,0 +1,13 @@
+{
+    "netcup_config_version": 1,
+    "login": {
+        "customernumber": "YOUR CUSTOMER NUMBER HERE",
+        "apikey": "YOUR API KEY HERE",
+        "apipassword": "YOUR API PASSWORD HERE"
+    },
+    "enable_ipv4": true,
+    "enable_ipv6": true,
+    "domains": [
+        {"domain": "MY DOMAIN.com", "subdomains": ["domain1", "*", "@"]}
+    ]
+}
