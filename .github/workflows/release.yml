@@ -16,11 +16,11 @@ jobs:
         include:
           - name: linux
             os: ubuntu-latest
-            artifact_name: target/release/<name>
+            artifact_name: target/release/netcup
             asset_name: netcup-linux
           - name: windows
             os: windows-latest
-            artifact_name: target/release/<name>.exe
+            artifact_name: target/release/netcup.exe
             asset_name: netcup-windows
 
     steps:
